@@ -43,3 +43,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# API keys — copy api_keys.example.dart to api_keys.dart and fill in your own
+lib/services/api_keys.dart

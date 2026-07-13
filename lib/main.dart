@@ -1,3 +1,4 @@
+import 'package:ausmalino/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,8 +10,9 @@ class AusmalinoApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Ausmalino',
+      theme: AppTheme.light,
       debugShowCheckedModeBanner: false,
       home: Scaffold(body: Center(child: Text('Ausmalino'))),
     );

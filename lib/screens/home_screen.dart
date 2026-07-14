@@ -16,6 +16,7 @@ import '../widgets/app_modal.dart';
 import '../widgets/error_content.dart';
 import '../widgets/loading_content.dart';
 import '../widgets/result_content.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -159,13 +160,23 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Column(
                           children: [
                             const SizedBox(height: 16),
-                            const Text(
-                              'Ausmalino',
-                              style: TextStyle(
-                                fontSize: 34,
-                                fontWeight: FontWeight.w800,
-                                color: AppColors.bronzeTan,
-                              ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                SvgPicture.asset(
+                                  'assets/icons/Ausmalino-icon.svg',
+                                  height: 48,
+                                ),
+                                const SizedBox(width: 8),
+                                const Text(
+                                  'Ausmalino',
+                                  style: TextStyle(
+                                    fontSize: 34,
+                                    fontWeight: FontWeight.w800,
+                                    color: AppColors.bronzeTan,
+                                  ),
+                                ),
+                              ],
                             ),
                             const SizedBox(height: 16),
                             _buildPromptField(),

@@ -66,5 +66,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Ausmalino braucht Zugriff auf die Kamera, um deine Fotos in Ausmalbilder zu verwandeln.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Ausmalino braucht Zugriff auf deine Fotos, um sie in Ausmalbilder zu verwandeln.</string>
 </dict>
 </plist>

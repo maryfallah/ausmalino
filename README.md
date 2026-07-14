@@ -1,6 +1,6 @@
 # Ausmalino
 
-A cute little flutter project for you to generate coloring pictures.
+A cute little Flutter project for you to generate coloring pictures.
 
 Ausmalino turns a short description or a photo into a printable, black-and-white
 coloring page for kids, powered by OpenAI's image generation and Stability
@@ -9,20 +9,25 @@ photo), and get back clean line art ready to print and color in :)
 
 ## Description
 
-NOTE: the original version of this app is built as a Capacitor/HTML/CSS/JS app and
-is already live on App Store. this repository is a full
+NOTE: The original version of this app is built as a Capacitor/HTML/CSS/JS app and 
+is already live on the App Store. This repository is a full 
 Flutter rewrite: same design, same two generation paths, native camera/gallery
 access, and a share sheet for printing.
 
-The owner of this app is : Gesa Marie Anna Senst
+The owner of this app is: Gesa Marie Anna Senst. 
 Link to the app: https://apps.apple.com/de/app/ausmalino/id6756326105?l=en-GB
 
 
 ## Screenshots
 
-| Home screen | Loading state | Error state | Result |
-| --- | --- |
-| ![Home screen](docs/screenshots/home_screen.jpg) | ![Dialogs](docs/screenshots/dialogs.jpg) |
+<p align="center">
+  <img src="docs/screenshots/home_screen.png" width="250" alt="Home screen">
+</p>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/dialogs.png" width="600" alt="Dialogs">
+</p>
 
 ## Features
 
